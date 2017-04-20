@@ -22,13 +22,33 @@ h1 {
     padding: 60px 50px;
 }
 
-.navbar {
+.navbar-default {
     background-color: #2d2d30;
-	margin-bottom: 0;
+    margin-bottom: 0;
     border: 0;
     border-radius: 0;
-	letter-spacing: 1px;
-	opacity: 0.8;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.navbar-default .navbar-nav li a, .navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #777777;
+}
+
+.navbar-default .navbar-header a {
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.my-navbar {
+    background-color: transparent;
+    letter-spacing: 1px;
+	
 }
 
 .my-navbar .navbar-nav li a, .my-navbar .navbar-brand {
@@ -38,11 +58,17 @@ h1 {
 
 .my-navbar .navbar-nav li a:hover {
     color: #777777;
+    background-color: inherit;
 }
 
 .my-navbar .navbar-header a {
     font-size: 25px;
-	letter-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.my-navbar .navbar-header a:hover {
+    color: #777777;
+    background-color: inherit;
 }
 
 .btn-default-transparent {
@@ -124,7 +150,7 @@ h1 {
 }
 
 .slideanim {
-	visibility:hidden;
+    visibility:hidden;
 }
 
 .slide {
@@ -166,8 +192,8 @@ h1 {
         text-align: center;
         margin: 25px 0;
     }
-	.btn-lg {
-		width: 100%;
-		margin-bottom: 35px;
-	}
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
 }
