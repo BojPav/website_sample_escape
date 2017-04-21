@@ -1,17 +1,34 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: font116156, 'Open Sans', sans-serif;
 }
 
 h1 {
     font-size: 60px;
 }
 
+h4 {
+    font-size: 22px;	
+}
+
+p {
+    font-size: 18px;    
+}
+
 .jumbotron { 
-    height: 750px;
+    height: 950px;
     background-image: url("/img/background_image.png"); 
     background-size: cover;
     color: #fff;
     padding: 200px 25px;
+}
+
+.jumbotron p {
+    font-family: font122747;
+    font-size: 32px;
+}
+
+.jumbotron h1 {
+    font-size: 66px;
 }
 
 .bg-grey {
@@ -80,8 +97,16 @@ h1 {
     height: 50px;
 }
 
+.services p { 
+    color: #777777;	
+}
+
 .identity {
     padding-right: 190px;
+}
+
+.clients h4 {
+    color: #777777;
 }
 
 .img-circle {
@@ -97,9 +122,9 @@ h1 {
     background-color: #111111;
 }
 
-.item h4 {
+.item h3 {
     color: #777777;
-    font-size: 19px;
+    font-size: 26px;
     line-height: 1.375em;
     font-weight: 400;
     font-style: italic;
@@ -109,6 +134,7 @@ h1 {
 .item span {
     color: #7690c5;
     font-style: normal;
+	font-size: 20px;
 }
 
 .bg-black {
@@ -147,6 +173,12 @@ h1 {
 
 .footer {
     padding-bottom: 10px;
+}
+
+.icon_social {
+    color: #fff;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
 }
 
 .slideanim {
